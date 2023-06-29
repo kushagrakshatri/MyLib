@@ -11,3 +11,29 @@ This project is a basic implementation of a library management system in C++. It
 - Book Search: Users can search for a book by name.
 - Book Removal: Allows for the removal of a book from the system.
 - Admin Menu: The administrator can view the issue history, deposit history, search for a book, add a new book, and remove a book.
+
+## Getting Started
+1. Pre-requisites: Make sure you have a C++ compiler. If not, you can download one (like GCC or MinGW if you're using Windows).
+
+2. Compilation: Open your terminal and navigate to the project directory. Run the following command to compile the program:
+
+   ```
+   g++ main.cpp -o main
+   
+   ```
+3. Execution:
+
+   ```
+   ./main
+   
+   ```
+
+## Challenges and Learnings
+1. Memory Management: Using arrays helped manage the list of books, though it limits the number of books that can be handled to the array's size.
+2. Search Functionality: Implementing the search function required an understanding of string handling and array manipulation in C++.
+3. Data Persistence: The current version of the program does not support data persistence.
+4. User Interface and Error Handling: Creating an intuitive and error-free user interface in a console application was a challenge. Proper user prompts and correct handling of user input were prioritized.
+5. Structuring the Code: The code is organized into two classes, Book and Admin, representing different entities in the library system, which helped maintain a clean and manageable codebase
+
+## Contributing
+Contributions are welcome. Please create a new issue if you have any feedback, suggestions, or want to request a new feature.
