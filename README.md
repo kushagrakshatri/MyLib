@@ -13,20 +13,21 @@ This project is a basic implementation of a library management system in C++. It
 - Admin Menu: The administrator can view the issue history, deposit history, search for a book, add a new book, and remove a book.
 
 ## Getting Started
-1. Pre-requisites: Make sure you have a C++ compiler. If not, you can download one (like GCC or MinGW if you're using Windows).
 
-2. Compilation: Open your terminal and navigate to the project directory. Run the following command to compile the program:
+### Pre-requisites
+Make sure you have a C++ compiler. If not, you can download one (like GCC or MinGW if you're using Windows).
 
-   ```
-   g++ main.cpp -o main
-   
-   ```
-3. Execution:
+### Compilation
+Open your terminal and navigate to the project directory. Run the following command to compile the program:
 
-   ```
-   ./main
-   
-   ```
+```
+g++ main.cpp -o main
+```
+### Execution
+
+```
+./main
+```
 
 ## Challenges and Learnings
 1. Memory Management: Using arrays helped manage the list of books, though it limits the number of books that can be handled to the array's size.
